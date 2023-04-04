@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Serif+Pro:ital@1&display=swap");
+@import url("components/container.css")
+@import url("components/avatar.css")
+@import url("components/button.css")
+
+body {
+font-family: 'Source Serif Pro';
+font-size: 18px;
+}
+
+h1, h2, h3 {
+font-family: 'Montserrat';
+font-weight: bold;
+}
+
+h5 {
+	font-family: 'Montserrat';
+	color: white;
+	font-size: 24px;
+}
+
+a {
+text-decoration: none;
+}
+
+.btn-blue {
+background-color: pink;
+padding: 15px 20px;
+border-radius: 4px;
+color: white;
+font-weight: bold;
+font-family: Montserrat;
+}
+
+.avatar {
+width: 60px;
+height: 60px;
+border-radius: 50%;
+}
+
+
+
+.banner {
+background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%),url("images/arbre.jpg");
+padding: 300px 0px;
+margin: 0px
+text-align: center;
+background-size: cover;
+background-position: center;
+}
+
+.banner-content h1 {
+color: white;
+font-size: 28px;
+margin: 0;
+}
+
+.container {
+width: 700px;
+margin: 80px;
+}
+
+
+.banner h1 {
+	color: white;
+	font-size: 50px;
+}
+
+.banner h2 {
+	color: white;
+	font-size: 30px;
+	font-weight: lighter;
+	opacity: 0.8;
+}
+
+
+.card {
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+	border-radius: 6px;
+	margin: 10px;
+	flex-basis: 250px;
+	flex-grow: 1;
+	flex-direction: column;
+  justify-content: center;
+
+}
+
+.card img {
+	width: 150px;
+	border-radius: 6px;
+}
+
+.card h3 {
+	flex-grow: 1;
+	padding-left: 20px;
+	font-size: 18px;
+
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center; 
+  
+  
+}
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: calc(25% - 20px); /* calcul de la largeur en pourcentage */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+  border-radius: 6px;
+  margin: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+.banner h1 {
+	font-size: 50px;
+
+}
+
+.banner h2 {
+	font-size: 30px
+	font-weight: lighter;
+	margin-bottom: 40px;
+}
+
+h5, .btn-blue, h1 {
+  text-align: center;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.banner-content h1,
+.banner-content h5,
+.banner-content .btn-blue {
+  text-align: center;
+}
